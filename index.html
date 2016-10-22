@@ -6,13 +6,69 @@
         <title>Jean-Philippe Sirois</title>
         <meta name="description" content="Jean-Philippe Sirois's homepage">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        html,
+        body {
+          height: 100%;
+        }
+
+        body {
+          /*background: #4338a8;*/
+          background: #fff;
+          margin: 0;
+          color: #fff;
+          font-family: Arial, sans-serif;
+        }
+
+        .main {
+          display: flex;
+          align-items: stretch;
+          height: 100%;
+        }
+
+        .side {
+          flex: 0 1 50px;
+          background-color: #eee;
+          background: linear-gradient(86deg, rgba(255, 255, 255, 0.5), rgba(204, 204, 204, 0.5)), url(assets/img/cream_pixels.png)
+        }
+
+        .content {
+          flex: 1 0 500px;
+          overflow-y: hidden;
+        }
+
+        .main-bar {
+          /*background: #5d50d3;*/
+          background: #39a769;
+          margin-top: 100px;
+          outline: 1px dashed #39a769;
+          outline-offset: 3px;
+        }
+
+        .main-bar__img {
+          display: block;
+          margin-left: 40px;
+          width: 300px;
+        }
+
+        </style>
     </head>
     <body>
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <p>Hello world!</p>
+        <div class="main">
+
+          <div class="side"></div>
+
+          <div class="content">
+            <div class="main-bar">
+              <img class="main-bar__img" src="assets/img/jp.png">
+            </div>
+          </div>
+
+        </div>
 
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
