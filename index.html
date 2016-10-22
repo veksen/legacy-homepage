@@ -17,7 +17,17 @@
           background: #fff;
           margin: 0;
           color: #fff;
+          color: #555;
           font-family: Arial, sans-serif;
+          line-height: 1.42;
+        }
+
+        p {
+          margin: 0;
+        }
+
+        p + p {
+          margin-top: 1em;
         }
 
         .main {
@@ -35,6 +45,11 @@
         .content {
           flex: 1 0 500px;
           overflow-y: hidden;
+          font-size: 24px;
+        }
+
+        .content-inner {
+          padding: 50px;
         }
 
         .main-bar {
@@ -65,6 +80,12 @@
           <div class="content">
             <div class="main-bar">
               <img class="main-bar__img" src="assets/img/jp.png">
+            </div>
+
+            <div class="content-inner">
+              <p>Hey there! I'm <strong>Jean-Philippe Sirois</strong>, a full-stack web developer based in the beautiful Montreal, Canada.</p>
+
+              <p>My hobbies and interests include mountain biking, snowboarding, photography, and design.</p>
             </div>
           </div>
 
