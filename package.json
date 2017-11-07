@@ -8,12 +8,18 @@
   },
   "author": "Jean-Philippe Sirois <jp@veksen.net>",
   "license": "MIT",
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/shim.js"
+    ]
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "fix": "eslint . --fix"
+    "fix": "eslint . --fix",
+    "test": "jest"
   },
   "dependencies": {
     "next": "^4.1.4",
@@ -21,6 +27,8 @@
     "react-dom": "^16.0.0"
   },
   "devDependencies": {
+    "enzyme": "^3.1.1",
+    "enzyme-adapter-react-16": "^1.0.4",
     "eslint": "^4.10.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.8.0",
@@ -28,7 +36,9 @@
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-react": "^7.4.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^21.2.1",
+    "react-test-renderer": "^16.0.0"
   },
   "bugs": {
     "url": "https://github.com/veksen/homepage/issues"
