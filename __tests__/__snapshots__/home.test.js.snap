@@ -11,10 +11,10 @@ exports[`With Snapshot Testing The page renders properly 1`] = `
     className="content"
   >
     <div
-      className="main-bar"
+      className="jsx-4083016075 main-bar"
     >
       <img
-        className="main-bar__img"
+        className="jsx-4083016075 main-bar__img"
         src="/static/img/jp.png"
       />
     </div>
@@ -22,7 +22,7 @@ exports[`With Snapshot Testing The page renders properly 1`] = `
       className="content-inner"
     >
       <div
-        className="section"
+        className="jsx-1899863949 section"
       >
         <p>
           Hey there! I'm 
@@ -36,21 +36,21 @@ exports[`With Snapshot Testing The page renders properly 1`] = `
         </p>
       </div>
       <div
-        className="section"
+        className="jsx-1899863949 section"
       >
         <h2>
           Stalk me!
         </h2>
         <div
-          className="social"
+          className="jsx-1161685295 social"
         >
           <a
-            className="social__link social__link--github"
+            className="jsx-1486862249 social__link social__link--github"
             href="https://github.com/veksen"
             title="GitHub"
           >
             <svg
-              className="social__icon"
+              className="jsx-1486862249 social__icon"
               viewBox="0 0 512 512"
             >
               <path
@@ -58,18 +58,18 @@ exports[`With Snapshot Testing The page renders properly 1`] = `
               />
             </svg>
             <span
-              className="social__text"
+              className="jsx-1486862249 social__text"
             >
-              Github
+              GitHub
             </span>
           </a>
           <a
-            className="social__link social__link--twitter"
+            className="jsx-1486862249 social__link social__link--twitter"
             href="https://twitter.com/veksenn"
             title="Twitter"
           >
             <svg
-              className="social__icon"
+              className="jsx-1486862249 social__icon"
               viewBox="0 0 512 512"
             >
               <path
@@ -77,18 +77,18 @@ exports[`With Snapshot Testing The page renders properly 1`] = `
               />
             </svg>
             <span
-              className="social__text"
+              className="jsx-1486862249 social__text"
             >
               Twitter
             </span>
           </a>
           <a
-            className="social__link social__link--stackoverflow"
+            className="jsx-1486862249 social__link social__link--stackoverflow"
             href="http://stackoverflow.com/users/1732521/veksen"
-            title="Stack Overflow"
+            title="Stackoverflow"
           >
             <svg
-              className="social__icon"
+              className="jsx-1486862249 social__icon"
               viewBox="0 0 512 512"
             >
               <path
@@ -96,18 +96,18 @@ exports[`With Snapshot Testing The page renders properly 1`] = `
               />
             </svg>
             <span
-              className="social__text"
+              className="jsx-1486862249 social__text"
             >
               Stackoverflow
             </span>
           </a>
           <a
-            className="social__link social__link--linkedin"
+            className="jsx-1486862249 social__link social__link--linkedin"
             href="https://www.linkedin.com/in/jean-philippe-sirois-lamarche-14789269"
             title="LinkedIn"
           >
             <svg
-              className="social__icon"
+              className="jsx-1486862249 social__icon"
               viewBox="0 0 512 512"
             >
               <path
@@ -115,18 +115,18 @@ exports[`With Snapshot Testing The page renders properly 1`] = `
               />
             </svg>
             <span
-              className="social__text"
+              className="jsx-1486862249 social__text"
             >
               LinkedIn
             </span>
           </a>
           <a
-            className="social__link social__link--facebook"
+            className="jsx-1486862249 social__link social__link--facebook"
             href="https://www.facebook.com/jpslx"
             title="Facebook"
           >
             <svg
-              className="social__icon"
+              className="jsx-1486862249 social__icon"
               viewBox="0 0 512 512"
             >
               <path
@@ -134,7 +134,7 @@ exports[`With Snapshot Testing The page renders properly 1`] = `
               />
             </svg>
             <span
-              className="social__text"
+              className="jsx-1486862249 social__text"
             >
               Facebook
             </span>

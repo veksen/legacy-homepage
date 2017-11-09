@@ -36,10 +36,6 @@ export default `
     background: linear-gradient(86deg, rgba(255, 255, 255, 0.5), rgba(204, 204, 204, 0.5)), url(/static/img/cream_pixels.png)
   }
 
-  .section + .section {
-    margin-top: 100px;
-  }
-
   .content {
     flex: 1 1 auto;
     overflow-y: hidden;
@@ -52,10 +48,20 @@ export default `
     padding: 50px;
   }
 
-  .social {
-    display: flex;
+  .main-bar {
+    background: #39a769;
+    margin-top: 100px;
+    outline: 1px dashed #39a769;
+    outline-offset: 3px;
   }
 
+  .main-bar__img {
+    display: block;
+    margin-left: 40px;
+    width: 300px;
+  }
+
+  // TODO: figure out why this doesn't work inside SocialLink.js
   .social__link {
     flex: 0 1 auto;
     line-height: 50px;
@@ -96,18 +102,5 @@ export default `
   .social__text {
     display: none;
     color: #6d6d6d;
-  }
-
-  .main-bar {
-    background: #39a769;
-    margin-top: 100px;
-    outline: 1px dashed #39a769;
-    outline-offset: 3px;
-  }
-
-  .main-bar__img {
-    display: block;
-    margin-left: 40px;
-    width: 300px;
   }
 `

@@ -19,12 +19,14 @@
     "start": "next start",
     "lint": "eslint .",
     "fix": "eslint . --fix",
-    "test": "jest"
+    "test": "jest",
+    "testupdate": "jest --updateSnapshot"
   },
   "dependencies": {
     "next": "^4.1.4",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react-dom": "^16.0.0",
+    "styled-components": "^2.2.3"
   },
   "devDependencies": {
     "enzyme": "^3.1.1",
