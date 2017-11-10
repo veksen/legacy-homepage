@@ -1,13 +1,13 @@
 import SocialLink from './SocialLink'
+import styled from 'styled-components'
+
+const SocialWrapper = styled.div`
+  display: flex;
+`
 
 export default () => {
   return (
-    <div className="social">
-      <style scoped jsx>{`
-        .social {
-          display: flex;
-        }
-      `}</style>
+    <SocialWrapper className="social">
 
       <SocialLink
         name="GitHub"
@@ -34,6 +34,6 @@ export default () => {
         username="jpslx"
       />
 
-    </div>
+    </SocialWrapper>
   )
 }

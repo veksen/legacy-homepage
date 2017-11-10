@@ -1,14 +1,17 @@
+import styled from 'styled-components'
+
+const SectionWrapper = styled.div`
+  & + & {
+    margin-top: 100px;
+  }
+`
+
 export default ({ children }) => {
   return (
-    <div className="section">
-      <style jsx>{`
-        .section + .section {
-          margin-top: 100px;
-        }
-      `}</style>
+    <SectionWrapper className="section">
 
       {children}
 
-    </div>
+    </SectionWrapper>
   )
 }

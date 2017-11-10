@@ -1,27 +1,27 @@
 import MainBar from '../components/MainBar'
 import Section from '../components/Section'
 import Social from '../components/Social'
-import globalStyles from './indexStyles'
+import globalStyles, { P, Main, Side, Content, ContentInner } from './indexStyles'
 
 export default () => {
   return (
-    <div className="main">
+    <Main>
 
       <style jsx global>{globalStyles}</style>
 
-      <div className="side"></div>
+      <Side />
 
-      <div className="content">
+      <Content>
 
         <MainBar />
 
-        <div className="content-inner">
+        <ContentInner>
 
           <Section>
 
-            <p>Hey there! I'm <strong>Jean-Philippe Sirois</strong>, a full-stack web developer based in the beautiful Montreal, Canada.</p>
+            <P>Hey there! I'm <strong>Jean-Philippe Sirois</strong>, a full-stack web developer based in the beautiful Montreal, Canada.</P>
 
-            <p>My hobbies and interests include mountain biking, snowboarding, photography, and design.</p>
+            <P>My hobbies and interests include mountain biking, snowboarding, photography, and design.</P>
 
           </Section>
 
@@ -32,9 +32,11 @@ export default () => {
             <Social />
 
           </Section>
-        </div>
-      </div>
 
-    </div>
+        </ContentInner>
+
+      </Content>
+
+    </Main>
   )
 }
